@@ -1,0 +1,909 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/root/
+	..
+1481868395
+'b
+	/root/bin/
+	..
+1481868395
+'h
+	/root/
+	..
+1481868395
+'l
+	/tmp
+	chartjs2
+1469087402
+
+# Bookmarks:
+b/home/syurchen/
+	1
+	1469030898
+b/var/www/html/
+	2
+	1469031154
+b/var/lib/asterisk/agi-bin/
+	3
+	1469031174
+b/tmp/
+	t
+	1469087419
+b/var/log/
+	l
+	1469087439
+b/var/lib/basys/bgi-bin/
+	b
+	1469118882
+b/etc/
+	e
+	1469165085
+b/usr/src/
+	s
+	1473082686
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/var/www/html/lar/app
+	Http
+4
+d/var/www/html/lar/app/Http
+	Controllers
+1
+d/var/www/html/lar/app/Http/Controllers
+	ListController.php
+4
+d/var/www/html/lar/app/Http
+	Controllers
+1
+d/var/www/html/lar/app
+	Http
+4
+d/var/www/html/lar
+	resources
+6
+d/var/www/html/lar/resources
+	views
+3
+d/var/www/html/lar/resources/views
+	welcome.blade.php
+8
+d/etc
+	php.ini
+42
+d/var/www/html
+	chat
+3
+d/var/www/html/chat
+	vendor
+11
+d/var/www/html/chat/vendor
+	pusher
+29
+d/var/www/html/chat/vendor/pusher
+	pusher-php-server
+1
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	lib
+1
+d/var/www/html/chat/vendor/pusher/pusher-php-server/lib
+	Pusher.php
+1
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	lib
+1
+d/var/www/html/chat/vendor/pusher/pusher-php-server/lib
+	Pusher.php
+1
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	lib
+1
+d/var/www/html/chat/vendor/pusher
+	pusher-php-server
+1
+d/var/www/html/chat/vendor
+	pusher
+29
+d/var/www/html/chat
+	vendor
+11
+d/var/www/html
+	chat
+3
+d/var/www/html/chat
+	routes
+8
+d/var/www/html/chat/routes
+	..
+0
+d/var/www/html/chat
+	storage
+9
+d/var/www/html/chat/storage
+	logs
+3
+d/var/www/html/chat/storage/logs
+	laravel.log
+2
+d/var/www/html/chat/storage
+	logs
+3
+d/var/www/html/chat
+	tests
+10
+d/var/www/html/chat/tests
+	..
+0
+d/var/www/html/chat
+	resources
+7
+d/var/www/html/chat/resources
+	..
+0
+d/var/www/html/chat
+	vendor
+11
+d/var/www/html/chat/vendor
+	pusher
+29
+d/var/www/html/chat/vendor/pusher
+	pusher-php-server
+1
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	test
+2
+d/var/www/html/chat/vendor/pusher/pusher-php-server/test
+	config.example.php
+4
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	test
+2
+d/var/www/html/chat/vendor/pusher/pusher-php-server/test
+	TestLogger.php
+3
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	test
+2
+d/var/www/html/chat/vendor/pusher/pusher-php-server/test
+	unit
+2
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	test
+2
+d/var/www/html/chat/vendor/pusher/pusher-php-server/test
+	config.php
+4
+d/var/www/html/chat/vendor/pusher/pusher-php-server
+	README.md
+6
+d/var/www/html/chat/vendor/pusher
+	pusher-php-server
+1
+d/var/www/html/chat/vendor
+	nahid
+19
+d/var/www/html/chat/vendor/nahid
+	talk
+1
+d/var/www/html/chat/vendor/nahid/talk
+	src
+3
+d/var/www/html/chat/vendor/nahid/talk/src
+	Live
+3
+d/var/www/html/chat/vendor/nahid/talk/src/Live
+	Broadcast.php
+1
+d/var/www/html/chat/vendor/nahid/talk/src
+	Messages
+4
+d/var/www/html/chat/vendor/nahid/talk/src/Messages
+	..
+0
+d/var/www/html/chat/vendor/nahid/talk/src
+	Facades
+2
+d/var/www/html/chat/vendor/nahid/talk/src/Facades
+	..
+0
+d/var/www/html/chat/vendor/nahid/talk/src
+	helpers
+5
+d/var/www/html/chat/vendor/nahid/talk/src/helpers
+	..
+0
+d/var/www/html/chat/vendor/nahid/talk/src
+	views
+6
+d/var/www/html/chat/vendor/nahid/talk/src/views
+	pusherjs.blade.php
+1
+d/var/www/html/chat/vendor/nahid/talk/src
+	views
+6
+d/var/www/html/chat/vendor/nahid/talk
+	src
+3
+d/var/www/html/chat/vendor/nahid
+	talk
+1
+d/var/www/html/chat/vendor
+	nahid
+19
+d/var/www/html/chat
+	vendor
+11
+d/etc
+	httpd
+23
+d/etc/httpd
+	conf.d
+2
+d/etc/httpd/conf.d
+	..
+0
+d/etc/httpd
+	conf
+1
+d/etc/httpd/conf
+	httpd.conf
+1
+d/var/log
+	httpd
+2
+d/var/log/httpd
+	error_log
+4
+d/usr/src
+	vifm-master
+15
+d/home/syurchen
+	Discord
+3
+d/home/syurchen/Discord
+	MusicBot
+3
+d/home/syurchen/Discord/MusicBot
+	..
+0
+d/home/syurchen/Discord
+	chgk
+4
+d/home/syurchen/Discord/chgk
+	chgk-135-2.py
+15
+d/home/syurchen/Discord
+	chgk
+4
+d/home/syurchen/Discord/chgk
+	chgk-135.py
+16
+d/home/syurchen/Discord
+	MusicBot
+3
+d/home/syurchen/Discord/MusicBot
+	..
+0
+d/home/syurchen/Discord
+	2MusicBot
+1
+d/home/syurchen/Discord/2MusicBot
+	config
+2
+d/home/syurchen/Discord/2MusicBot/config
+	blacklist.txt
+2
+d/home/syurchen/Discord/2MusicBot
+	musicbot
+3
+d/home/syurchen/Discord/2MusicBot/musicbot
+	bot.py
+4
+d/home/syurchen/Discord/2MusicBot
+	musicbot
+3
+d/var/log
+	supervisor
+7
+d/var/log/supervisor
+	supervisord.log
+16
+d/home/syurchen
+	Discord
+3
+d/home/syurchen/Discord
+	2MusicBot
+1
+d/home/syurchen/Discord/2MusicBot
+	.dockerignore
+4
+d/home/syurchen/Discord
+	2MusicBot
+1
+d/home/syurchen
+	Discord
+3
+d/home/syurchen/Discord
+	2MusicBot
+1
+d/home/syurchen/Discord/2MusicBot
+	run.py
+12
+d/home/syurchen/Discord
+	2MusicBot
+1
+d/home/syurchen
+	master.zip
+14
+d/tmp
+	yum_save_tx-2017-07-21-13-326zckDC.yumtx
+20
+d/var/log
+	yum.log-20170107
+20
+d/home/syurchen
+	master.zip
+14
+d
+
+# Right window history (oldest to newest):
+D/var/www/html/chat/public/chat/css
+	style.css
+2
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat
+	resources
+7
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat/resources/views
+	partials
+6
+D/var/www/html/chat/resources/views/partials
+	peoplelist.blade.php
+2
+D/var/www/html/chat/resources/views
+	partials
+6
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat
+	public
+6
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public/chat/css
+	style.css
+2
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat
+	resources
+7
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat/resources/views
+	layouts
+4
+D/var/www/html/chat/resources/views/layouts
+	chat.blade.php
+2
+D/var/www/html/chat/resources/views
+	layouts
+4
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat
+	routes
+8
+D/var/www/html/chat/routes
+	..
+0
+D/var/www/html/chat
+	resources
+7
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat/resources/views
+	welcome.blade.php
+10
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat
+	.env
+13
+D/var/www/html
+	test-task
+6
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	index.html
+2
+D/var/www/html
+	App
+2
+D/var/www/html/App
+	assets
+1
+D/var/www/html/App/assets
+	ajax
+1
+D/var/www/html/App
+	index.html
+2
+D/var/www/html
+	test-task
+6
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	ajax
+1
+D/var/www/html/test-task/ajax
+	get.php
+1
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	tasks
+2
+D/var/www/html/test-task/tasks
+	..
+0
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	.git
+1
+D/var/www/html/test-task/.git
+	config
+9
+D/var/www/html/test-task
+	index.php
+2
+D/var/www/html
+	App
+2
+D/var/www/html/App
+	index.html
+2
+D/var/www/html
+	chat
+3
+D/var/www/html/chat
+	resources
+7
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat/resources/views
+	partials
+6
+D/var/www/html/chat/resources/views/partials
+	peoplelist.blade.php
+2
+D/var/www/html/chat/resources/views
+	partials
+6
+D/var/www/html/chat/resources
+	views
+3
+D/var/www/html/chat
+	public
+6
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public/chat/css
+	reset.css
+1
+D/var/www/html/chat/public/chat
+	css
+1
+D/var/www/html/chat/public
+	chat
+1
+D/var/www/html/chat
+	public
+6
+D/var/www/html
+	test-task
+6
+D/var/www/html/test-task
+	index.php
+2
+D/var/www/html
+	test-task
+6
+D/var/www
+	html
+3
+D/var
+	www
+17
+D/
+	etc
+4
+D/etc
+	supervisord.conf
+16
+D/var/log
+	supervisor
+7
+D/var/log/supervisor
+	chgk-bot2.log
+9
+D/var/www/html
+	test-task.zip
+9
+D
+
+# Command line history (oldest to newest):
+:!lavarel new lav
+:!laravel new lav
+:!/root/.composer/vendor/bin/laravel new lar
+:!composer update --no-scripts
+:!/usr/src/composer.phar update --no-scripts
+:!mv composer.phar composer
+:!composer require symfony/polyfill-iconv
+:cd /var/www/html/lar/vendor/laravel/framework/src/Illuminate/Support/
+:!/root/.composer/vendor/bin/laravel config:clear
+:!/root/.composer/vendor/bin/laravel help
+:!composer intall artisan
+:!composer install artisan
+:!composer require artisan
+:!php artisan key:generate'
+:!php artisan key:update
+:!php artisan config:clear
+:!php artisan inspire
+:!vendor/bin/phpunit tests/TestCase.php
+:!./vendor/bin/phpunit tests/TestCase.php
+:!./vendor/bin/phpunit tests/CreatesApplication.php
+:!./vendor/bin/phpunit CreatesApplication.php
+:!./vendor/bin/phpunit ../tests/CreatesApplication.php
+:!artisan  event:generate
+:!php artisan  event:generate
+:!php artisan make:event
+:!php artisan make:event 
+:!php artisan list make
+:!php artisan list make test test
+:!php artisan make:test test123
+:!./vendor/bin/phpunit
+:!php artisan event:generate
+:!php artisan make:mail
+:!php artisan make:mail test
+:!php artisan make:notification test
+:!grep -rl routed.php .
+:!php artisan make:middleware age
+:!git clone https://github.com/nahid/talk.git
+:!composer require nahid/talk
+:!php artisan vendor:publish --provider="Nahid\Talk\TalkServiceProvider"
+:!php artisan make:controller chat --plain
+:!php artisan make:controller chat
+:!php artisan make:controller validation
+:!touch login.blade.php
+:!composer require illuminate/html
+:!php artisan -v
+:!php artisan -
+:!php artisan -V
+:!php artisan make:controller ListController
+:!mysql
+:!touch newMessageHtml.blade.php
+:!mkdir messages
+:!touch conversations.blade.php
+:!touch chat.blade.php
+:!mkdir partials
+:!touch peoplelist.blade.php
+:!git clone https://github.com/nahid/talk-example.git
+:!composer install
+:!mv 000_talk-example/ chat
+:!mv .env.example .env
+:!php artisan key:generate
+:!chown -r apache:apache *
+:!chown -R apache:apache *
+:!php artisan migrate
+:!php artisan db:seed
+:!php artisan make:auth
+:!php artisan cache
+:!php artisan serve 
+:!php artisan serve 80
+:!grep -rl talk.js .
+:!find . --name talk.js
+:!find . -name talk.js
+:!grep -rl pushers .
+:!grep -rl pusher .
+:!grep -rl new\ Pusher  .
+:!composer require pusher/pusher-php-server
+:!touch debug.log
+:!chown apache:apache debug.log
+:!mv config.example.php config.php
+:!php artisan cache:clear
+:!grep -rl talk__userChannel .
+:!grep -rl callback .
+:!grep -rl callback . | grep talk
+:!mkdir test-task
+:!touch index.html
+:!mkdir ajax
+:!touch get.php
+:!touch 
+:!mv index.html index.php
+:!git config http.postBuffer 524288000
+:!ssh-keygen -t rsa
+:!git add index.php
+:!git commit -m "first commit"
+:!git remote add origin git@github.com:syurchen/tasks.git
+:!gi
+:!git clone https://github.com/syurchen/tasks.git
+:!git push -u origin master
+:!zip -r test-task.zip test-task
+:!git init
+:q
+:!mv Lost_Highway.mp4 /var/www/html/lh.mp4
+
+# Search history (oldest to newest):
+/site
+/resol
+/serv
+/my
+/init.d
+/ze
+/fire
+/4767
+/localt
+/pip
+/ssl
+/err
+/logro
+/logrotate.c
+/pytho
+/ffm
+/pcre
+/nginx
+/http
+/htt
+/php
+/super
+
+# Prompt history (oldest to newest):
+p2MusicBot
+pether-bot-200-beta-denis.py
+pvoice-to-text.php
+pamo_class.php
+pspeech2text.php
+pzebratelecom.json
+pzebratelecom.tpl
+pzebratelecom
+pold_speech2text.php
+paddons
+pnumber_storage
+pfree.json
+pnumber-storage
+plookup.php
+poutside-import.php
+pdbinit-simple.php
+preserved
+preserved.tpl
+pnumber-storage.json
+pether-bot-200-beta-backup.py
+ptest.py
+pdbinit.py
+pchgk-11.py
+pchgk-12.py
+pchgk-latest.py
+pchgk-131.py
+p2chbot-1.py
+p2chbot-1.1.py
+p2chbot-1.5.py
+p2chbot-1.6.py
+p2chbot-1.61.py
+p2chbot-1.62.py
+pchgk-132.py
+p2chbot-1.63.py
+pchgk-133.py
+pchgk-134.py
+pchgk-135.py
+pchgk-135-2.py
+ptest-task2
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/.vifm-Trash-0/001_lh.mp4
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/.vifm-Trash-0/000_google-api2.php
+	/home/syurchen/ext_crms/amo/google-api2.php
+t/home/.vifm-Trash-0/000_class.php
+	/home/syurchen/to-text/includes/class.php
+t/.vifm-Trash-0/000_start.php
+	/var/www/html/hive-sy/plugin/integration/start.php
+t/.vifm-Trash-0/000_php_errors.log
+	/var/www/html/hive-sy/plugin/integration/ajax/php_errors.log
+t/.vifm-Trash-0/001_php_errors.log
+	/var/www/html/hive-sy/plugin/zebratelecom/ajax/php_errors.log
+t/.vifm-Trash-0/000_speech2text.php
+	/var/lib/basys/bgi-bin/speech2text.php
+t/.vifm-Trash-0/001_start.php
+	/var/www/html/hive-sy/plugin/zebratelecom/start.php
+t/.vifm-Trash-0/002_php_errors.log
+	/var/www/html/hive/for-amo/php_errors.log
+t/.vifm-Trash-0/000_.zebra-lib.php.swp
+	/var/www/html/hive-sy/plugin/zebratelecom/includes/.zebra-lib.php.swp
+t/.vifm-Trash-0/000_\
+	/var/www/html/hive-sy/plugin/zebratelecom/includes/\
+t/.vifm-Trash-0/000_basys-restart.php
+	/var/lib/basys/bgi-bin/basys-restart.php
+t/.vifm-Trash-0/000_for-amo.zip
+	/var/www/html/hive/for-amo.zip
+t/.vifm-Trash-0/000_request.log
+	/var/www/html/hive/for-amo/request.log
+t/.vifm-Trash-0/006_php_errors.log
+	/var/lib/asterisk/agi-bin/ext-crms/amo/php_errors.log
+t/.vifm-Trash-0/008_php_errors.log
+	/var/lib/asterisk/agi-bin/for-amo/php_errors.log
+t/.vifm-Trash-0/000_.tail2.php.swp
+	/var/lib/asterisk/agi-bin/.tail2.php.swp
+t/.vifm-Trash-0/009_php_errors.log
+	/var/lib/asterisk/agi-bin/ext-crms/php_errors.log
+t/.vifm-Trash-0/000_47672a133a08519f7fcc41675f69a74f
+	/var/lib/hive/amo-cookie/47672a133a08519f7fcc41675f69a74f
+t/.vifm-Trash-0/000_.amolog.swp
+	/var/log/.amolog.swp
+t/.vifm-Trash-0/000_free
+	/var/www/html/hive-sy/plugin/number_storage/free
+t/.vifm-Trash-0/000_free.json
+	/var/www/html/hive-sy/config/supremo/number-storage/free.json
+t/home/.vifm-Trash-0/000_outside-import.php
+	/home/syurchen/number_storage/outside-import.php
+t/.vifm-Trash-0/010_php_errors.log
+	/var/www/html/hive-sy/plugin/query/ajax/php_errors.log
+t/.vifm-Trash-0/000_callback.zip
+	/var/www/html/hive-sy/api/callback.zip
+t/.vifm-Trash-0/011_php_errors.log
+	/var/www/html/hive-sy/api/callback/php_errors.log
+t/.vifm-Trash-0/000_.htaccess
+	/var/www/html/hive-sy/api/callback/.htaccess
+t/.vifm-Trash-0/000_tpl.zip
+	/var/www/html/hive-sy/plugin/number_storage/reserved/tpl.zip
+t/.vifm-Trash-0/013_php_errors.log
+	/var/www/html/hive-sy/plugin/number_storage/reserved/includes/php_errors.log
+t/.vifm-Trash-0/014_php_errors.log
+	/var/www/html/hive-sy/plugin/number_storage/free/includes/php_errors.log
+t/.vifm-Trash-0/015_php_errors.log
+	/var/www/html/hive-sy/plugin/number_storage/free/ajax/php_errors.log
+t/.vifm-Trash-0/016_php_errors.log
+	/var/www/html/hive-sy/plugin/number_storage/reserved/ajax/php_errors.log
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
