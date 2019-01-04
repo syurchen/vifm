@@ -5,6 +5,7 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 syntax on
 noremap <silent> <F11> :cal VimCommanderToggle()<CR>
+map <silent> <C-n> :NERDTreeFocus<CR>
 
 :color desert
 
