@@ -1,5 +1,7 @@
 " git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+set encoding=utf-8
 
+:set noeol
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -22,7 +24,7 @@ nnoremap <silent> <C-l> :nohl<CR><C-l>
 " smarttab<CR>
 "
 
-autocmd FileType php setlocal noeol binary
+autocmd FileType php setlocal noeol binary tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 " --- Python ---
 "autocmd FileType python set completeopt-=preview 
 autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8
@@ -57,17 +59,35 @@ Plugin 'tpope/vim-surround'
 
 Plugin 'scrooloose/nerdtree'
 
+Bundle 'stephpy/vim-php-cs-fixer'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
+
+call plug#begin('~/nvim/plugged')
+Plug 'tpope/vim-fugitive'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+call plug#end()
+
+nnoremap <leader>a :Rg<space>
+nnoremap <leader>A :exec "Rg ".expand("<cword>")<cr>
+
+autocmd VimEnter * command! -nargs=* Rg
+  \ call fzf#vim#grep(
+  \   'rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \           : fzf#vim#with_preview('right:50%:hidden', '?'),
+  \   <bang>0)
+
+let g:php_cs_fixer_config_file = '/Users/syurchen/.php_cs'
+autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
+
+
+set backupdir=.backup/,~/.backup/,/tmp//
+set directory=.swp/,~/.swp/,/tmp//
+set undodir=.undo/,~/.undo/,/tmp//
+
+
