@@ -36,6 +36,15 @@ if has("autocmd")
   au BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 endif
 
+au BufNewFile,BufRead *.py
+    \ set tabstop=4 |
+    \ set softtabstop=4 |
+    \ set shiftwidth=4 |
+    \ set textwidth=79 |
+    \ set expandtab |
+    \ set autoindent |
+    \ set fileformat=unix 
+
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -59,7 +68,13 @@ Plugin 'tpope/vim-surround'
 
 Plugin 'scrooloose/nerdtree'
 
+Plugin 'beyondwords/vim-twig'
+
 Bundle 'stephpy/vim-php-cs-fixer'
+
+Plugin 'vim-scripts/indentpython.vim'
+
+Plugin 'chrisbra/NrrwRgn'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -77,17 +92,22 @@ nnoremap <leader>A :exec "Rg ".expand("<cword>")<cr>
 
 autocmd VimEnter * command! -nargs=* Rg
   \ call fzf#vim#grep(
-  \   'rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
+  \   'rg --column --line-number --no-heading --fixed-strings --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1,
   \   <bang>0 ? fzf#vim#with_preview('up:60%')
   \           : fzf#vim#with_preview('right:50%:hidden', '?'),
   \   <bang>0)
 
+let g:fzf_action = {
+  \ 'return': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit' }
+
 let g:php_cs_fixer_config_file = '/Users/syurchen/.php_cs'
-autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
+"autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
+nnoremap <leader>f :!cp % /tmp/fixed.php; php-cs-fixer --config=/Users/syurchen/.php_cs fix /tmp/fixed.php; vimdiff % /tmp/fixed.php<cr>
 
 
 set backupdir=.backup/,~/.backup/,/tmp//
 set directory=.swp/,~/.swp/,/tmp//
 set undodir=.undo/,~/.undo/,/tmp//
-
 

@@ -13,14 +13,14 @@
 	/Users/syurchen/
 	..
 1554731166
-'z
-	/Users/syurchen/.vifm
-	..
-1554731166
 'l
 	/tmp
 	chartjs2
 1469087402
+'z
+	/Users/syurchen/.vifm
+	..
+1554731166
 
 # Bookmarks:
 b/Users/syurchen/Documents/work/otp/
@@ -64,15 +64,9 @@ r2
 d/etc
 	php.ini
 42
-d/etc
-	httpd
-23
 d/var/log
 	httpd
 2
-d/var/log
-	supervisor
-7
 d/tmp
 	yum_save_tx-2017-07-21-13-326zckDC.yumtx
 20
@@ -293,8 +287,23 @@ d/Users/syurchen/Documents/work/otp/services
 	amocrm
 1
 d/Users/syurchen/Documents/work/otp
-	docker-compose-amocrm.yml
-43
+	dist
+13
+d/Users/syurchen/Documents/work/otp/dist
+	supervisor.d.local
+11
+d/Users/syurchen/Documents/work/otp/dist/supervisor.d.local
+	reconciliation.conf
+20
+d/Users/syurchen/Documents/work/otp/dist
+	supervisor.d.local
+11
+d/Users/syurchen/Documents/work/otp/dist/supervisor.d.local
+	reconciliation.conf
+20
+d/Users/syurchen/Documents/work/otp/dist
+	supervisor.d.local
+11
 d
 
 # Right window history (oldest to newest):
@@ -601,7 +610,6 @@ D/Users/syurchen/Documents/work/otp/classes/lib/internal/TPHelpers/QTask
 D
 
 # Command line history (oldest to newest):
-:!lavarel new lav
 :!laravel new lav
 :!/root/.composer/vendor/bin/laravel new lar
 :!composer update --no-scripts
