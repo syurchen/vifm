@@ -102,12 +102,11 @@ let g:fzf_action = {
   \ 'ctrl-x': 'split',
   \ 'ctrl-v': 'vsplit' }
 
-let g:php_cs_fixer_config_file = '/Users/syurchen/.php_cs'
+let g:php_cs_fixer_config_file = '$HOME/.php_cs'
 "autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
-nnoremap <leader>f :!cp % /tmp/fixed.php; php-cs-fixer --config=/Users/syurchen/.php_cs fix /tmp/fixed.php; vimdiff % /tmp/fixed.php<cr>
+nnoremap <leader>f :!cp % /tmp/fixed.php; php-cs-fixer --config=$HOME/.php_cs fix /tmp/fixed.php; vimdiff % /tmp/fixed.php<cr>
 
 
 set backupdir=.backup/,~/.backup/,/tmp//
 set directory=.swp/,~/.swp/,/tmp//
 set undodir=.undo/,~/.undo/,/tmp//
-
