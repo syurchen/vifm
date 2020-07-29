@@ -72,6 +72,9 @@ Plugin 'beyondwords/vim-twig'
 
 Bundle 'stephpy/vim-php-cs-fixer'
 
+Plugin 'tobyS/vmustache'
+Bundle 'tobyS/pdv'
+
 Plugin 'vim-scripts/indentpython.vim'
 
 Plugin 'chrisbra/NrrwRgn'
@@ -87,8 +90,11 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 call plug#end()
 
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+nnoremap <leader>d :call pdv#DocumentCurrentLine()<CR>
+
 nnoremap <leader>a :Rg<space>
-nnoremap <leader>A :exec "Rg ".expand("<cword>")<cr>
+nnoremap <leader>A :exec "Rg ".expand("<cword>")<CR>
 
 autocmd VimEnter * command! -nargs=* Rg
   \ call fzf#vim#grep(
